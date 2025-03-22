@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3fa9e91c94243cc96f3cbcdcb0095d, type: 3}
+  m_Name: BreadFactoryLv1Config
+  m_EditorClassIdentifier: 
+  factoryName: Bread Factory
+  persistentId: 502e1c4d-2aab-455d-8cd2-f4be1f8b8f89
+  factoryIcon: {fileID: 21300000, guid: 11d51e1b08e7d4a5d9e8935346113980, type: 3}
+  productIcon: {fileID: 21300000, guid: 11d51e1b08e7d4a5d9e8935346113980, type: 3}
+  producedResource: {fileID: 11400000, guid: dcafa3b3ac50846c88b6f6cfc0999191, type: 2}
+  requiredResources:
+  - {fileID: 11400000, guid: 804a6a373d9754acd8057fb42107f573, type: 2}
+  requiredResourceAmounts: 02000000
+  productionTime: 60
+  storageCapacity: 20
+  hasQueue: 1
+  alwaysShowUI: 0

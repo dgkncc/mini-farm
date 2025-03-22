@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3fa9e91c94243cc96f3cbcdcb0095d, type: 3}
+  m_Name: HayFactoryConfig
+  m_EditorClassIdentifier: 
+  factoryName: Hay Factory
+  persistentId: 1be826dc-6999-4e60-9541-64fcd26a7582
+  factoryIcon: {fileID: 21300000, guid: be5df5669c8834b66a502e016ef957ff, type: 3}
+  productIcon: {fileID: 21300000, guid: be5df5669c8834b66a502e016ef957ff, type: 3}
+  producedResource: {fileID: 11400000, guid: c4fe50633827644fcb662e1acba92bda, type: 2}
+  requiredResources: []
+  requiredResourceAmounts: 
+  productionTime: 20
+  storageCapacity: 5
+  hasQueue: 0
+  alwaysShowUI: 1

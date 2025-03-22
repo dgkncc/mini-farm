@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3fa9e91c94243cc96f3cbcdcb0095d, type: 3}
+  m_Name: FlourFactoryConfig
+  m_EditorClassIdentifier: 
+  factoryName: Flour Factory
+  persistentId: 01c69bbc-1c12-474c-85db-f4ad1fc8834f
+  factoryIcon: {fileID: 21300000, guid: 4e5d546e8ce7e41029c6e5feb3608f9c, type: 3}
+  productIcon: {fileID: 21300000, guid: 4e5d546e8ce7e41029c6e5feb3608f9c, type: 3}
+  producedResource: {fileID: 11400000, guid: 804a6a373d9754acd8057fb42107f573, type: 2}
+  requiredResources:
+  - {fileID: 11400000, guid: c4fe50633827644fcb662e1acba92bda, type: 2}
+  requiredResourceAmounts: 01000000
+  productionTime: 20
+  storageCapacity: 5
+  hasQueue: 1
+  alwaysShowUI: 0
